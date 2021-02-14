@@ -1,0 +1,155 @@
+@charset "UTF-8";
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Meiryo, "メイリオ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.image, .about, .flow, .fee {
+  padding: 50px 0;
+}
+
+body {
+  background: url(../img/main_visual.jpg) no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav h1 {
+  color: #fff;
+  font-size: 25px;
+  padding: 20px 50px;
+  letter-spacing: 3px;
+  width: 500px;
+  margin: 0;
+  position: relative;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  padding-right: 40px;
+  font-size: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.title p {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 300px;
+  letter-spacing: 3px;
+}
+
+.title .btn {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title .btn p {
+  border: solid #fff 1px;
+  font-size: 25px;
+  padding: 20px 90px;
+}
+
+.title .btn p a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.title .btn p:hover {
+  background-color: #fff;
+}
+
+.title .btn p:hover a {
+  color: #505050;
+}
+
+.fade-in-bottom {
+  opacity: 0;
+  animation: fadein-bottom 1.5s .3s ease-out forwards;
+}
+
+.fade-in-bottom {
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 1.5s;
+  animation-delay: .3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-left {
+  opacity: 0;
+  animation-name: fadein-left;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-right {
+  opacity: 0;
+  animation-name: fadein-right;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein-right {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
