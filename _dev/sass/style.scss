@@ -53,7 +53,7 @@ body{
 .title{
     margin: 0 auto;
 
-    p{
+    .title-text{
         font-size: 40px;
         color: #fff;
         text-align: center;
@@ -64,21 +64,28 @@ body{
         width: 400px;
         text-align: center;
         margin: 0 auto;
-
+        border: solid #fff 1px;
+        font-size: 25px;
         p{
-            border: solid #fff 1px;
-            font-size: 25px;
-            padding: 20px 90px;
+            padding: 0;
+            margin: 0;
             a{
             color: #fff;
             text-align: center;
             text-decoration: none;
+            display: block;
+            width: 400px;
+            height: 100%;
+            padding:40px 90px ;
+
         }
         &:hover{
             a{
+            transition: 0.4s;
             color: #505050;
-            }
+            transition: 0.4s;
             background-color: #fff;
+            }
         }
         }
     }
