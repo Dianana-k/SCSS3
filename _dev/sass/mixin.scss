@@ -37,6 +37,12 @@ $mqSp: 768px;
       }
   }
 }
+@include mq(pc){
+    .close{
+        display: none;
+    }
+
+}
 @include mq(tab){
     
 
@@ -98,10 +104,7 @@ $mqSp: 768px;
             transform: translateY( 0 );
             opacity: 1;
         }
-        .close{
-            text-align: center;
-            color: #fff;
-        }  
+          
         }
         .sp-nav{
             z-index: 1;
@@ -137,6 +140,11 @@ $mqSp: 768px;
                     display: block;
                     padding: 20px 0;
                 }
+        }
+        .close{
+            display:unset;
+            text-align: center;
+            color: #fff;
         }
     }
     
