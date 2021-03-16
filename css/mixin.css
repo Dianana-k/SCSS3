@@ -8,23 +8,26 @@
   body {
     background-size: auto;
   }
-  .nav h1 {
+  .header-inner {
+    display: flex;
+  }
+  .header-inner .fade-in-left {
     color: #fff;
     font-size: 25px;
     padding: 20px 20px;
     letter-spacing: 3px;
-    max-width: 300px;
+    width: 300px;
     margin: 0;
     position: relative;
   }
-  .nav .humburger {
+  .header-inner .humburger {
     position: relative;
     display: block;
     width: 40px;
-    margin: 10px 15px 0 auto;
+    margin: 30px 15px 0 auto;
     height: 30px;
   }
-  .nav .humburger span {
+  .header-inner .humburger span {
     position: absolute;
     top: 50%;
     left: 0;
@@ -34,7 +37,7 @@
     background-color: #fff;
     transform: translateY(-50%);
   }
-  .nav .humburger::before {
+  .header-inner .humburger::before {
     content: '';
     display: block;
     position: absolute;
@@ -44,7 +47,7 @@
     background-color: #fff;
     height: 1px;
   }
-  .nav .humburger::after {
+  .header-inner .humburger::after {
     content: '';
     display: block;
     position: absolute;
@@ -83,6 +86,8 @@
   .sp-nav .sp-ul li {
     margin: 0 auto;
     padding: 0;
+    list-style-type: none;
+    margin: 40px;
   }
   .sp-nav .sp-ul li a {
     text-decoration: none;

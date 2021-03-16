@@ -52,13 +52,14 @@ $mqSp: 768px;
     body{
         background-size: auto;
     }
-    .nav{
-        h1{
+    .header-inner{
+        display: flex;
+        .fade-in-left{
             color: #fff;
             font-size: 25px;
             padding: 20px 20px;
             letter-spacing: 3px;
-            max-width: 300px;
+            width: 300px;
             margin: 0;
             position: relative;
         }
@@ -66,7 +67,7 @@ $mqSp: 768px;
             position: relative;
             display: block;
             width: 40px;
-            margin: 10px 15px 0 auto;
+            margin: 30px 15px 0 auto;
             height: 30px;
             span{
                 position: absolute;
@@ -130,6 +131,8 @@ $mqSp: 768px;
             li{
                 margin: 0 auto;
                 padding: 0;
+                list-style-type: none;
+                margin: 40px;
                 a{
                     text-decoration: none;
                     color: #fff;
