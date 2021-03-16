@@ -58,6 +58,7 @@
     background-color: #fff;
   }
   .sp-nav {
+    display: none;
     z-index: 1;
     padding: 0 60px;
     margin: 0 auto;
