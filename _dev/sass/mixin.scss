@@ -59,7 +59,7 @@ $mqSp: 768px;
             font-size: 25px;
             padding: 20px 20px;
             letter-spacing: 3px;
-            width: 300px;
+            max-width: 250px;
             margin: 0;
             position: relative;
         }
@@ -132,7 +132,6 @@ $mqSp: 768px;
                 margin: 0 auto;
                 padding: 0;
                 list-style-type: none;
-                margin: 40px;
                 a{
                     text-decoration: none;
                     color: #fff;
@@ -170,10 +169,11 @@ $mqSp: 768px;
             padding-top: 200px;
         }
         .btn{
-            max-width: 300px;
+            max-width: 250px;
             p{
                 a{
-                max-width: 300px;
+                    font-size: medium;
+                max-width: 250px;
                 padding: 20px 70px;
             }
             
