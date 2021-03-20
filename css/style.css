@@ -23,14 +23,14 @@ body {
   height: fit-content;
 }
 
-.nav {
+.header-inner {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.nav h1 {
+.header-inner h1 {
   color: #fff;
   font-size: 25px;
   padding: 20px 50px;
@@ -40,7 +40,7 @@ body {
   position: relative;
 }
 
-.nav ul {
+.header-inner ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -49,7 +49,7 @@ body {
   font-size: 20px;
 }
 
-.nav ul li a {
+.header-inner ul li a {
   text-decoration: none;
   color: #fff;
 }

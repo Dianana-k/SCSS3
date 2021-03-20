@@ -10,3 +10,8 @@
             $('.sp-nav').removeClass('toggle');
         });
         })
+    $(function(){
+        $('.humburger').on('click', function () {
+            $('.sp-nav').addClass('show');
+        });
+        })        

@@ -112,7 +112,6 @@ $mqSp: 768px;
             left: 0;
             width: 100%;
             height: 100vh;
-            display: block;
             width: 100%;
             background: rgba(0, 0, 0, .8);
             opacity: 0;
@@ -146,6 +145,9 @@ $mqSp: 768px;
         opacity: unset;
         animation: none;
     }   
+}
+.show{
+    display: block;
 }
         .toggle {
             transform: translateY( 0 );
