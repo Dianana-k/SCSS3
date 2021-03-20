@@ -95,6 +95,9 @@
     display: block;
     padding: 20px 0;
   }
+  .sp-nav .sp-ul p {
+    display: block;
+  }
   .sp-nav .fade-in-right {
     opacity: unset;
     animation: none;

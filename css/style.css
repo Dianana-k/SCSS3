@@ -54,6 +54,10 @@ body {
   color: #fff;
 }
 
+.header-inner ul p {
+  display: none;
+}
+
 .title {
   margin: 0 auto;
 }
